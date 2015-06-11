@@ -27,3 +27,9 @@ build:
     - arjen/hugo-build@1.4.0:
       theme: pixyll
       flags: --buildDrafts=true
+deploy:
+  steps:
+    - lukevivier/gh-pages@0.2.1:
+      token: $GIT_TOKEN
+      domain: mkcee.com
+      basedir: public
