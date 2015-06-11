@@ -24,4 +24,7 @@ build:
         name: echo
         code: |
           echo "hello world!"
-
+    - arjen/hugo-build:
+      version: 0.12
+      theme: herring-cove
+      flags: --buildDrafts=true
