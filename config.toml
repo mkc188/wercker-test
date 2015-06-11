@@ -1,3 +1,16 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://mkc188.github.io/blog"
+canonifyurls = true
 languageCode = "en-us"
 title = "My New Hugo Site"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  description = "Tesla's Awesome Hugo Site"
+  author = "Nikola Tesla"
